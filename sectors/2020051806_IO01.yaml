@@ -1,0 +1,40 @@
+tc2020io01amphan:
+  area_extent:
+    lower_left_xy:
+    - -700000.0
+    - -700000.0
+    upper_right_xy:
+    - 700000.0
+    - 700000.0
+  center:
+  - 0
+  - 0
+  description: TC2020 IO01 AMPHAN 2020-05-18 06:00:00
+  projection:
+    a: 6371228.0
+    lat_0: 13.4
+    lon_0: 86.2
+    proj: eqc
+    units: m
+  resolution:
+  - 1000
+  - 1000
+  sector_end_datetime: 2020-05-18 11:59:00
+  sector_info:
+    clat: 13.4
+    clon: 86.2
+    deck_line: IO,01,2020051806,,BEST,0,13.4,86.2,140,911,ST,34,NEQ,155,125,160,145,50,NEQ,65,75,80,50,64,NEQ,35,40,25,25,999,200,5,,10,B,,,,,AMPHAN,D,,,,,,
+    final_storm_name: unknown
+    pressure: 911.0
+    storm_basin: IO
+    storm_name: AMPHAN
+    storm_num: '01'
+    storm_year: 2020
+    synoptic_time: 2020-05-18 06:00:00
+    aid_type: BEST
+    vmax: 140.0
+  sector_start_datetime: 2020-05-18 06:00:00
+  sector_type: atcf
+  shape:
+    height: 1400
+    width: 1400
