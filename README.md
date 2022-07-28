@@ -40,6 +40,8 @@ Setup System Environment Variables
 
 ```bash
 
+    git lfs install  # Required to clone Git Large File Storage tracked data files
+
     # GEOIPS_BASEDIR will contain all source, output, and external dependencies
     # Ensure this is consistently set for all installation / setup steps below
     export GEOIPS_BASEDIR=$HOME/geoproc
